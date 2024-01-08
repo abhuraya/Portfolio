@@ -68,34 +68,43 @@ main div {
     margin: 40px;
 }
 
-.first-project {
-    width: 1000px;
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
-main div h3 {
-    flex-direction: column;
-    border: 1px solid black;
-    height: 50px;
-    margin: 10px;
+
+
+
+.first-project {
+    width: 300px;
+    height: 200px;
+}
+main div {
+    flex-direction: row;
+    flex-wrap: wrap;
 }
     
 footer {
     text-align: center;
 }
 
-main div h3 img {
-    height: 200px;
-    width: 100px;
-}
-
 @media  screen and (min-width: 768px) {
-    .card-column {
-        flex: 0 0 50%;
+    main div {
         max-width: 50%;
     }
 }
 
 @media screen and (min-width: 992px) {
     header{
+        flex-wrap: wrap;
+        justify-content: space-evenly;
         width: 100%;
     }
+}
+
+button {
+    height: 100px;
+    background-color: white;
+    justify-content: space-between;
 }

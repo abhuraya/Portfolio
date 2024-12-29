@@ -8,7 +8,7 @@ import Container from '@mui/material/Container';
 import { styled } from '@mui/material/styles';
 import Paper from '@mui/material/Paper';
 import self from '../assets/RestaurantPicture.jpg';
-import background from '../assets/Ganesh.jpg'
+import background from '../assets/SquareCity.jpg'
 
 const Item = styled(Paper)(({ theme }) => ({
     backgroundColor: theme.palette.mode === 'dark' ? theme.palette.grey[800] : theme.palette.grey[50],
@@ -33,7 +33,7 @@ export default function MainPage() {
             <Box sx={{height: 200, width: 200, display: 'flex'}}>
                 <img src={self} alt='a picture of a person with black hair' />;
             </Box>
-            <Typography sx={{}} variant='h3'>Abhu's Portfolio</Typography>
+            <Typography sx={{}} variant='h3'>Portfolio</Typography>
             </Box>
             <Grid container spacing={12} sx={{display: 'flex', justifyContent: 'space-between'}}>
                 <Grid sx={{width: 300, height: 300}}>

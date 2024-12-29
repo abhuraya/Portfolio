@@ -25,41 +25,22 @@ export default function MainPage() {
     return (
         <div>
             <Typography>Header</Typography>
-            <Box display="flex" sx={{ flexGrow: 1,  height: '100vh', flexDirection: 'column'}} justifyContent='space-evenly' border='1px dashed black'>
-                <Box sx={{ flexGrow: 1, border: '1px dashed black', height: '10vh'}} >
-                    <Grid container spacing={20}>
-                        <Grid size={6} sx={{border: '1px dashed black', height: '7vh'}}>
-                            <Item>size=8</Item>
-                        </Grid>
-                        <Grid size={6}>
-                            <Item>size=4</Item>
-                        </Grid>
-                        <Grid size={6}>
-                            <Item>size=4</Item>
-                        </Grid>
-                        <Grid size={6} sx={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
-                            <Item sx={{height: '10vh', display: 'flex', justifyContent: 'center', alignItems: 'center', width: '10vh'}}>size=8</Item>
-                        </Grid>
-                    </Grid>
-                </Box>
-
-                <Box sx={{ flexGrow: 1}}>
-                    <Grid container spacing={2}>
-                        <Grid size ={{ sx: 6, md: 8}}>
-                            <Item>xs=6 md=8</Item>
-                        </Grid>
-                        <Grid size={{ xs: 6, md: 4}}>
-                            <Item>xs=6 md=4</Item>
-                        </Grid>
-                        <Grid size={{ xs:6, md: 4}}>
-                            <Item>xs=6 md=4</Item>
-                        </Grid>
-                        <Grid size={{xs: 6, md: 8}}>
-                            <Item>xs=6 md=8</Item>
-                        </Grid>
-                    </Grid>
-                </Box>
-            </Box>
+            <Grid container spacing={12} sx={{display: 'flex', justifyContent: 'space-between'}}>
+                <Grid sx={{border: 'dashed' , width: 300, height: 300}}>
+                    <Box sx={{width: 300, height: 300, borderRadius: 1, bgcolor: 'teal', '&hover':{bgcolor: 'black'}}}></Box>
+                </Grid>
+                <Grid sx={{border: 'dashed', width: 300, height: 300}}>
+                    <Box sx={{width: 300, height: 300, borderRadius: 1, bgcolor: 'yellow', '&hover':{bgcolor: 'maroon'}}}></Box>
+                </Grid>
+                <Grid sx={{width: 300, height: 300, borderRadius: 1, bgcolor: 'blue', '&hover': {bgcolor: 'magenta'}}}>
+                </Grid>
+                <Grid sx={{border: 'dashed', width: 300, height: 300}}>
+                    <Box sx={{width : 300, height: 300, borderRadius: 1, bgcolor: 'blueviolet', '&hover':{bgcolor: 'gray'}}}></Box>
+                </Grid>
+                <Grid sx={{border: 'dashed', width: 300, height: 300}}>
+                    <Box sx={{width: 300, height: 300, bgcolor: '#007FFF', '&hover':{bgcolor: '#0066CC'}}}></Box>   
+                </Grid>
+            </Grid>
         </div>
     )
 }

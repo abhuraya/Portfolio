@@ -8,7 +8,7 @@ import Container from '@mui/material/Container';
 import { styled } from '@mui/material/styles';
 import Paper from '@mui/material/Paper';
 import self from '../assets/RestaurantPicture.jpg';
-import background from '../assets/SquareCity.jpg'
+import background from '../assets/Mandelbrot.jpg'
 
 const Item = styled(Paper)(({ theme }) => ({
     backgroundColor: theme.palette.mode === 'dark' ? theme.palette.grey[800] : theme.palette.grey[50],

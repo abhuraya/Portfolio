@@ -36,43 +36,43 @@ export default function MainPage() {
             <Typography sx={{color: 'white', display: 'flex', justifyContent: 'center', alignItems: 'center'}} variant='h3'>Portfolio</Typography>
             </Box>
             <Grid container spacing={12} sx={{display: 'flex', justifyContent: 'space-between'}}>
-                <Grid sx={{width: 300, height: 300}}>
-                    <Box sx={{width: 300, height: 300, display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center'}}>
+                <Grid sx={{width: 250, height: 250}}>
+                    <Box sx={{width: 250, height: 250, display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center'}}>
                         <Button class="btn btn-lg btn-outline-light" href='https://flagquizlet.netlify.app/'>Flag Quiz</Button>
                     </Box>
                     <Box sx={{display: 'flex', justifyContent: 'space-around'}}>
                         <Button class="btn btn-primary" href='https://github.com/abhuraya/Flag_Quiz'>Github Repository</Button>
                     </Box>
                 </Grid>
-                <Grid sx={{width: 300, height: 300}}>
-                    <Box sx={{width: 300, height: 300, display: 'flex', flexDirection: 'column',justifyContent: 'center', alignItems: 'center'}}>
+                <Grid sx={{width: 250, height: 250}}>
+                    <Box sx={{width: 250, height: 250, display: 'flex', flexDirection: 'column',justifyContent: 'center', alignItems: 'center'}}>
                         <Button class="btn btn-lg btn-outline-light" href='https://frutisfruits.netlify.app/'>Fruits</Button>
                     </Box>
                     <Box sx={{display: 'flex', justifyContent: 'space-around'}}>
                         <Button class='btn btn-primary' href='https://github.com/abhuraya/Fruits'>GitHub Repository</Button>
                     </Box>
                 </Grid>
-                <Grid sx={{width: 300, height: 300}}>
-                    <Box sx={{width: 300, height: 300, display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center'}}>
+                <Grid sx={{width: 250, height: 250}}>
+                    <Box sx={{width: 250, height: 250, display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center'}}>
                         <Button class='btn btn-lg btn-outline-light' href='https://bostondumplings.com/'>Boston Dumplings</Button>
                     </Box>
                     <Box>
                         <Button class='btn btn-primary' href='https://github.com/abhuraya/Boston_Dumplings'>GitHub Repository</Button>
                     </Box>
                 </Grid>
-                <Grid sx={{width: 300, height: 300}}>
-                    <Box sx={{width : 300, height: 300, display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center'}}>
+                <Grid sx={{width: 250, height: 250}}>
+                    <Box sx={{width : 250, height: 250, display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center'}}>
                         <Button class="btn btn-lg btn-outline-light" href='https://abhuraya.github.io/Calculator/'>Calculator</Button>
                     </Box>
                     <Box>
                         <Button class='btn btn-primary' href='https://github.com/abhuraya/Calculator'>GitHub Repository</Button>
                     </Box>
                 </Grid>
-                <Grid sx={{width: 300, height: 300}}>
-                    <Box sx={{width: 300, height: 300, borderRadius: 1, bgcolor: 'yellow'}}></Box>
+                <Grid sx={{width: 250, height: 250}}>
+                    <Box sx={{width: 250, height: 250, borderRadius: 1, bgcolor: 'yellow'}}></Box>
                 </Grid>
-                <Grid sx={{width: 300, height: 300}}>
-                    <Box sx={{width: 300, height: 300, bgcolor: '#007FFF', '&hover':{bgcolor: '#0066CC'}}}></Box>   
+                <Grid sx={{width: 250, height: 250}}>
+                    <Box sx={{width: 250, height: 250, bgcolor: '#007FFF', '&hover':{bgcolor: '#0066CC'}}}></Box>   
                 </Grid>
             </Grid>
         </div>

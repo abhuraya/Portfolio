@@ -61,7 +61,12 @@ export default function MainPage() {
                     </Box>
                 </Grid>
                 <Grid sx={{width: 300, height: 300}}>
-                    <Box sx={{width : 300, height: 300, borderRadius: 1, bgcolor: 'blueviolet', '&hover':{bgcolor: 'gray'}}}></Box>
+                    <Box sx={{width : 300, height: 300, display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center'}}>
+                        <Button class="btn btn-lg btn-outline-light" href='https://abhuraya.github.io/Calculator/'>Calculator</Button>
+                    </Box>
+                    <Box>
+                        <Button class='btn btn-primary' href='https://github.com/abhuraya/Calculator'>GitHub Repository</Button>
+                    </Box>
                 </Grid>
                 <Grid sx={{width: 300, height: 300}}>
                     <Box sx={{width: 300, height: 300, borderRadius: 1, bgcolor: 'yellow'}}></Box>
